@@ -13,8 +13,29 @@ h1{
 h3{color: #303238;
 
 background-color: gray;
-font-size: 20px;
+font-size: x20px;
   font-family: 'IBM Plex Serif', serif;
   text-align: center;
 }
+
+img{
+
+
+	display: inline-block; 
+      
+    width: 250;
+    height: 300p;
+    margin-right: auto;
+   margin-left: auto;
+    height: 100px
+
+}
+
+p{
+
+text-align: center;
+}
+
+
+
 
