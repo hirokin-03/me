@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html> 
+
+
+<head>
+	<title>Travel with me </title>
+  
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet"  type="text/css" href="style.css"> 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif:wght@500&display=swap" rel="stylesheet">
+
+<style>
+
+ a:link { color: red; }
+    a:visited { color: #303238; }
+    a:visited:hover { color: #FFDE5E; }
+    a:hover { color: gray; }
+    a:active { color: #FFDE5E; }
+
+.mainname{
+  color: #303238;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 70px; }
+
+body 
+.mySlides {display: 
+    height: auto;
+text-align: center;
+
+  }
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width:auto;
+  margin: auto;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+nav{
+text-align: center;
+
+}
+nav ul{
+margin: 0 ;
+padding: 0 ;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+width: 18%;
+min-width: 90px;
+}
+nav ul li a{
+text-decoration: none;
+color: #333;
+}
+nav ul li.current a{
+color: #F33135;
+}
+nav ul li a:hover{
+color: #E7DA66;
+}
+
+
+</style>
+
+</head> 
+
+
+<header>
+	
+	<p> <img src="initial2.svg"  width="150" height="150"/> </p>
+
+<h1 >Adventure Life
+</h1> 
+
+<nav>
+<ul>
+<li class=”current”><a href="index.html">Home</a></li>
+<li><a href="page2.html">Travel</a></li>
+<li><a href="photo.html">Photography</a></li>
+<li><a href="aboutme.html">About me</a></li>
+</ul>
+</nav>
+
+</header>
+
+<maim>
+
+	<body>
+
+<h1> </h1>
+
+<div class="mySlides fade">
+    <img src="image/img01.jpg" style="width: 50%; height:50%">
+ 
+  </div>
+
+<div class="mySlides fade">
+    <img src="image/img02.jpg" style="width: 50%; height:50%">
+  </div>
+
+  
+
+  <div class="mySlides fade">
+    <img src="image/img03.jpg" style="width: 50%; height:50%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="image/img04.jpeg"style="width: 50%; height:50%" >
+  </div>
+
+  <div class="mySlides fade">
+    <img src="image/img05.jpg" style="width: 50%; height:50%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="image/img06.jpg" style="width: 50%; height:50%">
+  </div>
+ 
+  <div class="mySlides fade">
+    <img src="image/img07.jpg" style="width: 50%; height:50%">
+  </div>
+
+   <div class="mySlides fade">
+    <img src="image/img08.jpg" style="width: 50%; height:50%">
+  </div>
+ 
+  <div class="mySlides fade">
+    <img src="image/img09.jpg"style="width: 50%; height:50%" >
+  </div>
+ 
+  <div class="mySlides fade">
+    <img src="image/img010.JPG"style="width: 50%; height:50%" >
+  </div>
+
+  	<br> 
+    <div class="row"> 
+  <div class="column">
+  <img src="img010.JPG" style="width: 30%; height:30%">
+  <img src="GPTempDownload 71.jpg" style="width: 30%; height:30%">
+  <img src="img01.jpg" style="width: 30%; height:30%">
+  <img src="IMG_6713.jpg" style="width: 30%; height:30%">
+  <img src="img06.jpg" style="width: 30%; height:30%">
+  <img src="img02.jpg" style="width: 30%; height:30%">
+  <img src="ny1.JPG" style="width: 30%; height:30%">
+  <img src="miami1.JPG" style="width: 30%; height:30%">
+  <img src="Snapseed 16.jpg" style="width: 30%; height:30%">
+ <img src="sin.jpeg" style="width: 30%; height:30%">
+  <img src="japan.JPG" style="width: 30%; height:30%">
+  <img src="seattle1.JPG" style="width: 30%; height:30%">
+  </div>  
+ 
+ 
+
+
+
+</div>
+
+<script>
+// create variable to index the slides - to track
+var slideIndex = 0;
+// call a function that does something with the slides
+showSlides();
+
+function showSlides() {
+    // a variable to be used with the for loop
+    var i;
+    // target the slides in the DOM as slides
+    var slides = document.getElementsByClassName("mySlides");
+    // loop through the slides showing them one at a time (display)
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    // increment the slides from 0 to the total number of slides (for loop)
+    slideIndex++;
+    // loop back to the beginning
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+	
+
+
+</maim>
+
+<fotter> 
+    
+   <p> <a href="index.html">Back to Home</a>  </p>
+	</fotter>
+
+
+
+</html>
